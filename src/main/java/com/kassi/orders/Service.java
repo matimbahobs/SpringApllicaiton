@@ -19,7 +19,7 @@ public class Service {
 	Service () {
 		//create users
 		users = new ArrayList<String>();
-		users.add("PHILLIP");
+		users.add("Matimba");
 	} 
 	@GetMapping(path = "convertKelvineToCelsius")
 	public String convertKelvineToCelsius(@RequestParam("value") String kelvine, @RequestParam("username") String username) {
